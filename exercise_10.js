@@ -28,5 +28,17 @@ const propertyName = "car";
 let carsForRent = [];
 
 for (let i = 1; i <= 5; i++) {
-  carsForRent.push(allCars[propertyName + i].licensePlate); //getting access to the 2-nd level licensePlate
+  carsForRent.push(allCars[propertyName + i]); //getting access to the every car
 }
+
+//Deleting the first car from carsForRent
+let firstDeletedCar = carsForRent.splice(0, 1);
+console.log("First deleted car", firstDeletedCar);
+
+//Deleting last car from carsForRent
+let lastDeletedCar = carsForRent.pop();
+console.log("Last deleted car", lastDeletedCar);
+
+//Now the array carsForRent looks like that
+console.log("Current array carsForRent");
+console.log(carsForRent);
