@@ -297,9 +297,28 @@ for (let i = 1; i <= 5; i++) {
 }
 
 const carsForSale = [];
-carsForSale.push("BMW");
-carsForSale.push("Mercedes");
-carsForSale.push("Volkswagen");
+
+const carForSale1 = {
+  brand: "BMW",
+  model: "X6 2022",
+  licensePlate: "AO0019BC",
+};
+
+const carForSale2 = {
+  brand: "Mercedes",
+  model: "GLS",
+  licensePlate: "AO0012BC",
+};
+
+const carForSale3 = {
+  brand: "Volkswagen",
+  model: "Golf",
+  licensePlate: "AO0011BC",
+};
+
+carsForSale.push(carForSale1);
+carsForSale.push(carForSale2);
+carsForSale.push(carForSale3);
 
 let numberOfCarsForSale = carsForSale.length;
 let numberOfCarsForRent = carsForRent.length;
@@ -311,4 +330,31 @@ console.log(`Total amount of cars is ${totalCars}`); */
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* const carsForSale = [];
+
+const car1 = {
+  brand: "BMW",
+  model: "X6 2022",
+  licensePlate: "AO0019BC",
+};
+
+const car2 = {
+  brand: "Mercedes",
+  model: "GLS",
+  licensePlate: "AO0012BC",
+};
+
+const car3 = {
+  brand: "Volkswagen",
+  model: "Golf",
+  licensePlate: "AO0011BC",
+};
+
+carsForSale.push(car1);
+carsForSale.push(car2);
+carsForSale.push(car3);
+
+for (let i = 0; i < carsForSale.length; i++) {
+  console.log(carsForSale[i]);
+}
+ */

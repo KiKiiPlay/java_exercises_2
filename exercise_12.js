@@ -32,9 +32,28 @@ for (let i = 1; i <= 5; i++) {
 }
 
 const carsForSale = [];
-carsForSale.push("BMW");
-carsForSale.push("Mercedes");
-carsForSale.push("Volkswagen");
+
+const carForSale1 = {
+  brand: "BMW",
+  model: "X6 2022",
+  licensePlate: "AO0019BC",
+};
+
+const carForSale2 = {
+  brand: "Mercedes",
+  model: "GLS",
+  licensePlate: "AO0012BC",
+};
+
+const carForSale3 = {
+  brand: "Volkswagen",
+  model: "Golf",
+  licensePlate: "AO0011BC",
+};
+
+carsForSale.push(carForSale1);
+carsForSale.push(carForSale2);
+carsForSale.push(carForSale3);
 
 let numberOfCarsForSale = carsForSale.length;
 let numberOfCarsForRent = carsForRent.length;
