@@ -34,7 +34,16 @@ console.log(myInfo); */
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let myInfo = {
+  name: "Kiril",
+  surname: "Vandzsurak",
+  email: "kiril.wandzuerak@gmail.com",
+  age: 18,
+};
+
+myInfo.haveDrivingLicense = true;
+
+console.log(myInfo); */
 
 /* EXERCISE 4
  Remove from the previously created object the age property.
