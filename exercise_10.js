@@ -28,7 +28,5 @@ const propertyName = "car";
 let carsForRent = [];
 
 for (let i = 1; i <= 5; i++) {
-  carsForRent.push(allCars[propertyName + i]); //getting access to the every car
+  carsForRent.push(allCars[propertyName + i].licensePlate); //getting access to the 2-nd level licensePlate
 }
-
-console.log(carsForRent);
