@@ -49,7 +49,15 @@ console.log(myInfo); */
  Remove from the previously created object the age property.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let myInfo = {
+  name: "Kiril",
+  surname: "Vandzsurak",
+  email: "kiril.wandzuerak@gmail.com",
+  age: 18,
+};
+
+delete myInfo.age;
+console.log(myInfo); */
 
 /* EXERCISE 5
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
