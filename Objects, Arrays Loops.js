@@ -63,7 +63,25 @@ console.log(myInfo); */
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let myInfo = {
+  name: "Kiril",
+  surname: "Vandzsurak",
+  email: "kiril.wandzuerak@gmail.com",
+  age: 18,
+};
+
+let myFriendsInfo = {
+  name: "Cassidy",
+  surname: "O'Connell",
+  email: "blablabla@gmail.org",
+  age: 18,
+};
+
+if (myInfo.email !== myFriendsInfo.email) {
+  console.log("Emails are different!!");
+} else {
+  console.log("They are the same");
+} */
 
 /* EXERCISE 6
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
