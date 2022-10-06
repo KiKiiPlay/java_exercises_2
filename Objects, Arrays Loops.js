@@ -21,7 +21,14 @@ console.log(arrayHolder); */
  Create a variable and assign to it an object containing your name, surname, email address and age.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* let myInfo = {
+  name: "Kiril",
+  surname: "Vandzsurak",
+  email: "kiril.wandzuerak@gmail.com",
+  age: 18,
+};
+
+console.log(myInfo); */
 
 /* EXERCISE 3
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
