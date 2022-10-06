@@ -89,7 +89,19 @@ if (myInfo.email !== myFriendsInfo.email) {
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* const userCardHistory = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+totalShoppingCart = 0;
+
+for (let i = 0; i < userCardHistory.length; i++) {
+  totalShoppingCart += userCardHistory[i];
+}
+
+if (totalShoppingCart >= 50) {
+  console.log(`Your total is ${totalShoppingCart} $, you have free shipping`);
+} else {
+  totalShoppingCart += 10;
+  console.log(`Your total is ${totalShoppingCart} $, with shipping included`);
+} */
 
 /* EXERCISE 7
  You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
