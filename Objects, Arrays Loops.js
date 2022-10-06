@@ -263,7 +263,49 @@ console.log("Type of License Plate:", typeof car.licensePlate); */
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-/* WRITE YOUR ANSWER HERE */
+/* const car = {
+  brand: "BMW",
+  model: "X6 2022",
+  licensePlate: "AO0019BC",
+};
+
+const car1 = Object.assign({}, car);
+const car2 = Object.assign({}, car);
+const car3 = Object.assign({}, car);
+const car4 = Object.assign({}, car);
+const car5 = Object.assign({}, car);
+
+car1.licensePlate = "AO8929KA";
+car2.licensePlate = "AO7856EA";
+car3.licensePlate = "AO1111BB";
+car4.licensePlate = "AO1352AO";
+car5.licensePlate = "AO7500OA";
+
+const allCars = {
+  car1,
+  car2,
+  car3,
+  car4,
+  car5,
+};
+
+const propertyName = "car";
+let carsForRent = [];
+
+for (let i = 1; i <= 5; i++) {
+  carsForRent.push(allCars[propertyName + i]); //getting access to the every car
+}
+
+const carsForSale = [];
+carsForSale.push("BMW");
+carsForSale.push("Mercedes");
+carsForSale.push("Volkswagen");
+
+let numberOfCarsForSale = carsForSale.length;
+let numberOfCarsForRent = carsForRent.length;
+
+let totalCars = numberOfCarsForSale + numberOfCarsForRent;
+console.log(`Total amount of cars is ${totalCars}`); */
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
