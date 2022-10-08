@@ -74,6 +74,14 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_5-------------------------");
+let mixedNumArray2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log("Normal mixed array:", mixedNumArray2);
+for (let i = 0; i <= mixedNumArray2.length - 1; i++) {
+  if (mixedNumArray2[i] % 2 === 0) {
+    mixedNumArray2.splice(i, 1);
+  }
+}
+console.log("Array without even numbers:", mixedNumArray2);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 6
