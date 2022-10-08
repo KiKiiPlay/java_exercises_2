@@ -101,6 +101,13 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_7-------------------------");
+let increaseArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+console.log("Normal array:", increaseArr);
+for (let i = 0; i <= increaseArr.length - 1; i++) {
+  increaseArr[i]++;
+}
+
+console.log("Increased array:", increaseArr);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 8 
