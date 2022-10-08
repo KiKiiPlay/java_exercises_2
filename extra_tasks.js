@@ -116,4 +116,12 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_8-------------------------");
+let strArray = ["Hello", "Kiril", "I", "love", "coding"];
+let lengthArr = [];
+for (let i = 0; i <= strArray.length - 1; i++) {
+  lengthArr.push(strArray[i].length);
+}
+
+console.log("String array:", strArray);
+console.log("Lenght array:", lengthArr);
 console.log("-----------------------------------------------------\n");
