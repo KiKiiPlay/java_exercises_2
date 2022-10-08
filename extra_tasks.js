@@ -89,6 +89,11 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_6-------------------------");
+let strWithVowels = "Helo, my name is Gaz";
+let strWithNoVowels = strWithVowels.replace(/[aeiouy]/gi, "");
+
+console.log("Usual phrase:", strWithVowels);
+console.log("Pharse without vowels:", strWithNoVowels);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 7
