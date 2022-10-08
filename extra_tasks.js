@@ -57,6 +57,16 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_4-------------------------");
+let mixedNumArray = [12, 85, 66, 96, 547, 3, 253];
+let evenNumArray = [];
+for (let i = 0; i <= mixedNumArray.length - 1; i++) {
+  if (mixedNumArray[i] % 2 === 0) {
+    evenNumArray.push(mixedNumArray[i]);
+  }
+}
+
+console.log("Mixed array:", mixedNumArray);
+console.log("Array with only even numbers:", evenNumArray);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 5
