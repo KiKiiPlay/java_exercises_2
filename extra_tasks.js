@@ -40,6 +40,16 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_3-------------------------");
+let minValueArray = [1, 2, 128, 4, 0, 25];
+let minValue = minValueArray[0];
+for (let i = 0; i <= minValueArray.length - 1; i++) {
+  if (minValue > minValueArray[i]) {
+    minValue = minValueArray[i];
+  }
+}
+
+console.log("Array:", minValueArray);
+console.log("The minimum value of array is:", minValue);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 4
