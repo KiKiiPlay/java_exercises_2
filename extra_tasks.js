@@ -13,8 +13,8 @@ for (let i = normalArray.length - 1; i >= 0; i--) {
   reversedArray.push(normalArray[i]);
 }
 
-console.log(normalArray);
-console.log(reversedArray);
+console.log("Normal array:", normalArray);
+console.log("Reversed array:", reversedArray);
 
 console.log("-----------------------------------------------------\n");
 
@@ -23,6 +23,16 @@ console.log("-----------------------------------------------------\n");
 */
 
 console.log("------------------exercise_2-------------------------");
+let maxValueArray = [1, 2, 128, 6, 9, 4];
+let maxValue = null;
+for (let i = 0; i <= maxValueArray.length - 1; i++) {
+  if (maxValue < maxValueArray[i]) {
+    maxValue = maxValueArray[i];
+  }
+}
+
+console.log("Array:", maxValueArray);
+console.log("The maximum value of array is:", maxValue);
 console.log("-----------------------------------------------------\n");
 
 /* EXTRA 3
